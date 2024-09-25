@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d23x7weqvrl13"]
+
+[ext_resource type="Texture2D" uid="uid://dh3q6h4o0ktle" path="res://assets/textures/Screenshot 2024-09-24 at 17.51.33.png" id="1_1rijl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gwexg"]
+size = Vector2(332, 94)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Screenshot2024-09-24At17_51_33" type="Sprite2D" parent="."]
+position = Vector2(164.484, 191.75)
+scale = Vector2(0.226109, 0.226109)
+texture = ExtResource("1_1rijl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(164, 172)
+shape = SubResource("RectangleShape2D_gwexg")
