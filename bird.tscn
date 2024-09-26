@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=3 uid="uid://bhodtoli7boui"]
+
+[ext_resource type="Texture2D" uid="uid://c6ynnf8hdjkxt" path="res://assets/textures/bird/birdF1.png" id="1_tp2ro"]
+[ext_resource type="Texture2D" uid="uid://ck61newq8inng" path="res://assets/textures/bird/birdF2.png" id="2_2kjb6"]
+[ext_resource type="Texture2D" uid="uid://d1rh1isyjumrr" path="res://assets/textures/bird/birdF3.png" id="3_mqwh0"]
+[ext_resource type="Texture2D" uid="uid://cawd2i04mrqqm" path="res://assets/textures/bird/birdF4.png" id="4_ko5dl"]
+[ext_resource type="Texture2D" uid="uid://cmnn7bajt8fiw" path="res://assets/textures/bird/birdF5.png" id="5_ifvxf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nvpmp"]
+radius = 6.0
+height = 22.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4hox3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tp2ro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2kjb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_mqwh0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ko5dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ifvxf")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_nvpmp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_4hox3")
+animation = &"Idle"
+frame = 1
+frame_progress = 0.0885882

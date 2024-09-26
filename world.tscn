@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c7sm7xb7uv6xm"]
+[gd_scene load_steps=5 format=3 uid="uid://c7sm7xb7uv6xm"]
 
 [ext_resource type="PackedScene" uid="uid://d23x7weqvrl13" path="res://scenes/platform.tscn" id="1_mwm6p"]
 [ext_resource type="PackedScene" uid="uid://ck0ha014u21ln" path="res://scenes/player.tscn" id="2_cfldj"]
 [ext_resource type="Script" path="res://Camera2D.gd" id="3_eio8u"]
+[ext_resource type="PackedScene" uid="uid://bhodtoli7boui" path="res://bird.tscn" id="4_bwy6d"]
 
 [node name="World" type="Node2D"]
 
@@ -18,7 +19,10 @@ script = ExtResource("3_eio8u")
 object_to_follow = NodePath("../Player")
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("1_mwm6p")]
-position = Vector2(331, -40)
+position = Vector2(326, 2)
 
 [node name="StaticBody2D3" parent="." instance=ExtResource("1_mwm6p")]
-position = Vector2(664, -81)
+position = Vector2(654, 2)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("4_bwy6d")]
+position = Vector2(848, 109)
