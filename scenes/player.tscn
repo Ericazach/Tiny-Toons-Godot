@@ -1,10 +1,10 @@
 [gd_scene load_steps=13 format=3 uid="uid://ck0ha014u21ln"]
 
-[ext_resource type="Texture2D" uid="uid://brcqpwt4in344" path="res://assets/textures/FinalStanding.png" id="1_1yimg"]
 [ext_resource type="Script" path="res://scenes/player.gd" id="1_wqdqw"]
-[ext_resource type="Texture2D" uid="uid://dh83iach8sfjk" path="res://assets/textures/NormaRun.png" id="3_t7gjc"]
-[ext_resource type="Texture2D" uid="uid://cgmnx0l87nhoq" path="res://assets/textures/jumpUpRight.png" id="4_45cdr"]
-[ext_resource type="Texture2D" uid="uid://dhs60iyglftxc" path="res://assets/textures/fall (1).png" id="5_qoana"]
+[ext_resource type="Texture2D" uid="uid://brcqpwt4in344" path="res://assets/textures/player/FinalStanding.png" id="2_petvk"]
+[ext_resource type="Texture2D" uid="uid://dh83iach8sfjk" path="res://assets/textures/player/NormaRun.png" id="3_t0lih"]
+[ext_resource type="Texture2D" uid="uid://cgmnx0l87nhoq" path="res://assets/textures/player/jumpUpRight.png" id="4_lkn3k"]
+[ext_resource type="Texture2D" uid="uid://dhs60iyglftxc" path="res://assets/textures/player/fall (1).png" id="5_3o3we"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cqi2r"]
 size = Vector2(14, 26)
@@ -21,7 +21,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_1yimg")]
+"values": [ExtResource("2_petvk")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -75,7 +75,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("1_1yimg")]
+"values": [ExtResource("2_petvk")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -128,7 +128,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_t7gjc")]
+"values": [ExtResource("3_t0lih")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -182,7 +182,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("4_45cdr")]
+"values": [ExtResource("4_lkn3k")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -234,7 +234,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("5_qoana")]
+"values": [ExtResource("5_3o3we")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -291,7 +291,7 @@ speed = 150
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-0.250001, -20.4202)
 scale = Vector2(0.734043, 0.734043)
-texture = ExtResource("1_1yimg")
+texture = ExtResource("2_petvk")
 hframes = 7
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

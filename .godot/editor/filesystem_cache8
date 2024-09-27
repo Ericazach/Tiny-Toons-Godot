@@ -1,25 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1727344760
+::res://::1727346848
+bird.tscn::PackedScene::2906860711504709936::1727346500::0::1::::<><>::uid://c6ynnf8hdjkxt::::res://assets/textures/bird/birdF1.png<>uid://ck61newq8inng::::res://assets/textures/bird/birdF2.png<>uid://d1rh1isyjumrr::::res://assets/textures/bird/birdF3.png<>uid://cawd2i04mrqqm::::res://assets/textures/bird/birdF4.png<>uid://cmnn7bajt8fiw::::res://assets/textures/bird/birdF5.png
 Camera2D.gd::GDScript::-1::1727196656::0::1::::<>Camera2D<>::
 icon.svg::CompressedTexture2D::7507391149717547515::1727190023::1727279839::1::::<><>::
-world.tscn::PackedScene::7056830123757848638::1727287790::0::1::::<><>::uid://d23x7weqvrl13::::res://scenes/platform.tscn<>uid://ck0ha014u21ln::::res://scenes/player.tscn<>res://Camera2D.gd
-::res://assets/::1727344750
-::res://assets/textures/::1727344758
-fall (1).png::CompressedTexture2D::7689670085291627252::1727283423::1727283423::1::::<><>::
-fall.png::CompressedTexture2D::9177626793291212786::1727280859::1727280859::1::::<><>::
-FinalStanding.png::CompressedTexture2D::3584759226034457391::1727190971::1727279839::1::::<><>::
-jumpUp.png::CompressedTexture2D::5349313648663794237::1727280859::1727280859::1::::<><>::
-jumpUpRight.png::CompressedTexture2D::5219578688048143824::1727283133::1727283133::1::::<><>::
-NormaRun.png::CompressedTexture2D::7720422788030672080::1727280488::1727280489::1::::<><>::
-Screenshot 2024-09-24 at 17.51.33.png::CompressedTexture2D::7709413778287217574::1727193147::1727279839::1::::<><>::
-::res://assets/textures/bird/::1727344771
+world.tscn::PackedScene::7056830123757848638::1727346500::0::1::::<><>::uid://d23x7weqvrl13::::res://scenes/platform.tscn<>uid://ck0ha014u21ln::::res://scenes/player.tscn<>res://Camera2D.gd<>uid://bhodtoli7boui::::res://bird.tscn
+::res://assets/::1727346848
+::res://assets/textures/::1727346848
+::res://assets/textures/bird/::1727344777
 birdF1.png::CompressedTexture2D::6999053436407087841::1727344771::1727344771::1::::<><>::
 birdF2.png::CompressedTexture2D::5540327616125564228::1727344771::1727344771::1::::<><>::
 birdF3.png::CompressedTexture2D::9019738306174612275::1727344771::1727344771::1::::<><>::
 birdF4.png::CompressedTexture2D::4818488505530510868::1727344771::1727344771::1::::<><>::
 birdF5.png::CompressedTexture2D::5642790921115250962::1727344771::1727344771::1::::<><>::
-::res://scenes/::1727341764
-platform.tscn::PackedScene::9113618205107069076::1727277973::0::1::::<><>::uid://dh3q6h4o0ktle::::res://assets/textures/Screenshot 2024-09-24 at 17.51.33.png
+::res://assets/textures/platforms/::1727346857
+45.png::CompressedTexture2D::6279141528927443382::1727346829::1727346830::1::::<><>::
+56.png::CompressedTexture2D::7396681111033341112::1727346843::1727346843::1::::<><>::
+105.png::CompressedTexture2D::8056639534729900064::1727346857::1727346857::1::::<><>::
+Screenshot 2024-09-24 at 17.51.33.png::CompressedTexture2D::7709413778287217574::1727193147::1727346818::1::::<><>::
+::res://assets/textures/player/::1727346482
+fall (1).png::CompressedTexture2D::7689670085291627252::1727283423::1727346474::1::::<><>::
+fall.png::CompressedTexture2D::9177626793291212786::1727280859::1727346474::1::::<><>::
+FinalStanding.png::CompressedTexture2D::3584759226034457391::1727190971::1727346474::1::::<><>::
+jumpUp.png::CompressedTexture2D::5349313648663794237::1727280859::1727346474::1::::<><>::
+jumpUpRight.png::CompressedTexture2D::5219578688048143824::1727283133::1727346474::1::::<><>::
+NormaRun.png::CompressedTexture2D::7720422788030672080::1727280488::1727346474::1::::<><>::
+::res://scenes/::1727346822
+platform.tscn::PackedScene::9113618205107069076::1727346818::0::1::::<><>::uid://dh3q6h4o0ktle::::res://assets/textures/platforms/Screenshot 2024-09-24 at 17.51.33.png
 player.gd::GDScript::-1::1727283901::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::5526765621161499683::1727341764::0::1::::<><>::uid://brcqpwt4in344::::res://assets/textures/FinalStanding.png<>res://scenes/player.gd<>uid://dh83iach8sfjk::::res://assets/textures/NormaRun.png<>uid://cgmnx0l87nhoq::::res://assets/textures/jumpUpRight.png<>uid://dhs60iyglftxc::::res://assets/textures/fall (1).png
+player.tscn::PackedScene::5526765621161499683::1727346500::0::1::::<><>::res://scenes/player.gd<>uid://brcqpwt4in344::::res://assets/textures/player/FinalStanding.png<>uid://dh83iach8sfjk::::res://assets/textures/player/NormaRun.png<>uid://cgmnx0l87nhoq::::res://assets/textures/player/jumpUpRight.png<>uid://dhs60iyglftxc::::res://assets/textures/player/fall (1).png
 Sega Genesis 32X - Tiny Toon Adventures Busters Hidden Treasure - Gogo Dodo.png::CompressedTexture2D::8898455304892608364::1727339606::1727339606::1::::<><>::

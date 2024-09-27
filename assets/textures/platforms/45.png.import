@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh83iach8sfjk"
-path="res://.godot/imported/NormaRun.png-a342e2f25d5a13b1f187bf4227e8fce8.ctex"
+uid="uid://cvpwsqnfm6t31"
+path="res://.godot/imported/45.png-e22a04fd920456595705cdf12289e0ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/NormaRun.png"
-dest_files=["res://.godot/imported/NormaRun.png-a342e2f25d5a13b1f187bf4227e8fce8.ctex"]
+source_file="res://assets/textures/platforms/45.png"
+dest_files=["res://.godot/imported/45.png-e22a04fd920456595705cdf12289e0ea.ctex"]
 
 [params]
 

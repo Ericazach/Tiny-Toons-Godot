@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brcqpwt4in344"
-path="res://.godot/imported/FinalStanding.png-b34660bd15a2796d2461f14160aa52c6.ctex"
+uid="uid://dh83iach8sfjk"
+path="res://.godot/imported/NormaRun.png-0dd0c9dc880bbdac45abdddeda2a6888.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/FinalStanding.png"
-dest_files=["res://.godot/imported/FinalStanding.png-b34660bd15a2796d2461f14160aa52c6.ctex"]
+source_file="res://assets/textures/player/NormaRun.png"
+dest_files=["res://.godot/imported/NormaRun.png-0dd0c9dc880bbdac45abdddeda2a6888.ctex"]
 
 [params]
 

@@ -19,10 +19,10 @@ script = ExtResource("3_eio8u")
 object_to_follow = NodePath("../Player")
 
 [node name="StaticBody2D2" parent="." instance=ExtResource("1_mwm6p")]
-position = Vector2(326, 2)
+position = Vector2(326, 3)
 
 [node name="StaticBody2D3" parent="." instance=ExtResource("1_mwm6p")]
-position = Vector2(654, 2)
+position = Vector2(654, 3)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("4_bwy6d")]
 position = Vector2(848, 109)
