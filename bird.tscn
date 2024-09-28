@@ -41,5 +41,6 @@ shape = SubResource("CapsuleShape2D_nvpmp")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_4hox3")
 animation = &"Idle"
-frame = 1
-frame_progress = 0.0885882
+autoplay = "Idle"
+frame = 3
+frame_progress = 0.841709
