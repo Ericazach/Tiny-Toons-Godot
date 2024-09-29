@@ -23,7 +23,7 @@ position = Vector2(297, 6)
 rotation = -0.185326
 
 [node name="StaticBody2D3" parent="." instance=ExtResource("1_mwm6p")]
-position = Vector2(640, -56)
+position = Vector2(644, -57)
 rotation = 0.0179246
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("4_bwy6d")]
